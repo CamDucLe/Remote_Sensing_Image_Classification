@@ -1,0 +1,752 @@
+2022-10-25 12:22:59.891629: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-10-25 12:23:00.787286: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-10-25 12:23:00.788518: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-10-25 12:23:00.846396: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3f:00.0 name: TITAN RTX computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 23.65GiB deviceMemoryBandwidth: 625.94GiB/s
+2022-10-25 12:23:00.847629: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:40:00.0 name: TITAN RTX computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 23.65GiB deviceMemoryBandwidth: 625.94GiB/s
+2022-10-25 12:23:00.847660: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-10-25 12:23:00.849544: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-10-25 12:23:00.849615: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-10-25 12:23:00.851224: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-10-25 12:23:00.851516: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-10-25 12:23:00.853423: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-10-25 12:23:00.854422: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-10-25 12:23:00.858487: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-10-25 12:23:00.863262: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-10-25 12:23:00.863565: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-10-25 12:23:01.178647: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3f:00.0 name: TITAN RTX computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 23.65GiB deviceMemoryBandwidth: 625.94GiB/s
+2022-10-25 12:23:01.179859: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:40:00.0 name: TITAN RTX computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 23.65GiB deviceMemoryBandwidth: 625.94GiB/s
+2022-10-25 12:23:01.179897: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-10-25 12:23:01.179915: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2022-10-25 12:23:01.179925: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2022-10-25 12:23:01.179936: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-10-25 12:23:01.179946: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-10-25 12:23:01.179955: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-10-25 12:23:01.179965: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2022-10-25 12:23:01.179984: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2022-10-25 12:23:01.184583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2022-10-25 12:23:01.184631: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2022-10-25 12:23:02.177398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-10-25 12:23:02.177441: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1 
+2022-10-25 12:23:02.177447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N N 
+2022-10-25 12:23:02.177451: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   N N 
+2022-10-25 12:23:02.182333: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22474 MB memory) -> physical GPU (device: 0, name: TITAN RTX, pci bus id: 0000:3f:00.0, compute capability: 7.5)
+2022-10-25 12:23:02.185050: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 22474 MB memory) -> physical GPU (device: 1, name: TITAN RTX, pci bus id: 0000:40:00.0, compute capability: 7.5)
+2022-10-25 12:23:02.185272: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+
+ ==================================================================== SETUP PARAMETERS...
+-------- PARSER:
+-------- Hyper parameters:
+
+ =============== Directory Setting...
++ Writing to /var/data/storage/home/phaml/01_project/04_AI_for_Earth/02_nwpu_dataset/11_CAM_paper/11_EffB0_Att_03_rate_10
+
++ Best model Dir: /var/data/storage/home/phaml/01_project/04_AI_for_Earth/02_nwpu_dataset/11_CAM_paper/11_EffB0_Att_03_rate_10/model
+
+Number of devices: 2
+
+=============== Latest Model Loaded from dir: /var/data/storage/home/phaml/01_project/04_AI_for_Earth/02_nwpu_dataset/11_CAM_paper/11_EffB0_Att_03_rate_10/model
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            [(None, 246, 246, 3) 0                                            
+__________________________________________________________________________________________________
+rescaling (Rescaling)           (None, 246, 246, 3)  0           input_1[0][0]                    
+__________________________________________________________________________________________________
+normalization (Normalization)   (None, 246, 246, 3)  7           rescaling[0][0]                  
+__________________________________________________________________________________________________
+stem_conv_pad (ZeroPadding2D)   (None, 247, 247, 3)  0           normalization[0][0]              
+__________________________________________________________________________________________________
+stem_conv (Conv2D)              (None, 123, 123, 32) 864         stem_conv_pad[0][0]              
+__________________________________________________________________________________________________
+stem_bn (BatchNormalization)    (None, 123, 123, 32) 128         stem_conv[0][0]                  
+__________________________________________________________________________________________________
+stem_activation (Activation)    (None, 123, 123, 32) 0           stem_bn[0][0]                    
+__________________________________________________________________________________________________
+block1a_dwconv (DepthwiseConv2D (None, 123, 123, 32) 288         stem_activation[0][0]            
+__________________________________________________________________________________________________
+block1a_bn (BatchNormalization) (None, 123, 123, 32) 128         block1a_dwconv[0][0]             
+__________________________________________________________________________________________________
+block1a_activation (Activation) (None, 123, 123, 32) 0           block1a_bn[0][0]                 
+__________________________________________________________________________________________________
+block1a_se_squeeze (GlobalAvera (None, 32)           0           block1a_activation[0][0]         
+__________________________________________________________________________________________________
+block1a_se_reshape (Reshape)    (None, 1, 1, 32)     0           block1a_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block1a_se_reduce (Conv2D)      (None, 1, 1, 8)      264         block1a_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block1a_se_expand (Conv2D)      (None, 1, 1, 32)     288         block1a_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block1a_se_excite (Multiply)    (None, 123, 123, 32) 0           block1a_activation[0][0]         
+                                                                 block1a_se_expand[0][0]          
+__________________________________________________________________________________________________
+block1a_project_conv (Conv2D)   (None, 123, 123, 16) 512         block1a_se_excite[0][0]          
+__________________________________________________________________________________________________
+block1a_project_bn (BatchNormal (None, 123, 123, 16) 64          block1a_project_conv[0][0]       
+__________________________________________________________________________________________________
+block2a_expand_conv (Conv2D)    (None, 123, 123, 96) 1536        block1a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block2a_expand_bn (BatchNormali (None, 123, 123, 96) 384         block2a_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block2a_expand_activation (Acti (None, 123, 123, 96) 0           block2a_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block2a_dwconv_pad (ZeroPadding (None, 125, 125, 96) 0           block2a_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block2a_dwconv (DepthwiseConv2D (None, 62, 62, 96)   864         block2a_dwconv_pad[0][0]         
+__________________________________________________________________________________________________
+block2a_bn (BatchNormalization) (None, 62, 62, 96)   384         block2a_dwconv[0][0]             
+__________________________________________________________________________________________________
+block2a_activation (Activation) (None, 62, 62, 96)   0           block2a_bn[0][0]                 
+__________________________________________________________________________________________________
+block2a_se_squeeze (GlobalAvera (None, 96)           0           block2a_activation[0][0]         
+__________________________________________________________________________________________________
+block2a_se_reshape (Reshape)    (None, 1, 1, 96)     0           block2a_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block2a_se_reduce (Conv2D)      (None, 1, 1, 4)      388         block2a_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block2a_se_expand (Conv2D)      (None, 1, 1, 96)     480         block2a_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block2a_se_excite (Multiply)    (None, 62, 62, 96)   0           block2a_activation[0][0]         
+                                                                 block2a_se_expand[0][0]          
+__________________________________________________________________________________________________
+block2a_project_conv (Conv2D)   (None, 62, 62, 24)   2304        block2a_se_excite[0][0]          
+__________________________________________________________________________________________________
+block2a_project_bn (BatchNormal (None, 62, 62, 24)   96          block2a_project_conv[0][0]       
+__________________________________________________________________________________________________
+block2b_expand_conv (Conv2D)    (None, 62, 62, 144)  3456        block2a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block2b_expand_bn (BatchNormali (None, 62, 62, 144)  576         block2b_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block2b_expand_activation (Acti (None, 62, 62, 144)  0           block2b_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block2b_dwconv (DepthwiseConv2D (None, 62, 62, 144)  1296        block2b_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block2b_bn (BatchNormalization) (None, 62, 62, 144)  576         block2b_dwconv[0][0]             
+__________________________________________________________________________________________________
+block2b_activation (Activation) (None, 62, 62, 144)  0           block2b_bn[0][0]                 
+__________________________________________________________________________________________________
+block2b_se_squeeze (GlobalAvera (None, 144)          0           block2b_activation[0][0]         
+__________________________________________________________________________________________________
+block2b_se_reshape (Reshape)    (None, 1, 1, 144)    0           block2b_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block2b_se_reduce (Conv2D)      (None, 1, 1, 6)      870         block2b_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block2b_se_expand (Conv2D)      (None, 1, 1, 144)    1008        block2b_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block2b_se_excite (Multiply)    (None, 62, 62, 144)  0           block2b_activation[0][0]         
+                                                                 block2b_se_expand[0][0]          
+__________________________________________________________________________________________________
+block2b_project_conv (Conv2D)   (None, 62, 62, 24)   3456        block2b_se_excite[0][0]          
+__________________________________________________________________________________________________
+block2b_project_bn (BatchNormal (None, 62, 62, 24)   96          block2b_project_conv[0][0]       
+__________________________________________________________________________________________________
+block2b_drop (Dropout)          (None, 62, 62, 24)   0           block2b_project_bn[0][0]         
+__________________________________________________________________________________________________
+block2b_add (Add)               (None, 62, 62, 24)   0           block2b_drop[0][0]               
+                                                                 block2a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block3a_expand_conv (Conv2D)    (None, 62, 62, 144)  3456        block2b_add[0][0]                
+__________________________________________________________________________________________________
+block3a_expand_bn (BatchNormali (None, 62, 62, 144)  576         block3a_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block3a_expand_activation (Acti (None, 62, 62, 144)  0           block3a_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block3a_dwconv_pad (ZeroPadding (None, 65, 65, 144)  0           block3a_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block3a_dwconv (DepthwiseConv2D (None, 31, 31, 144)  3600        block3a_dwconv_pad[0][0]         
+__________________________________________________________________________________________________
+block3a_bn (BatchNormalization) (None, 31, 31, 144)  576         block3a_dwconv[0][0]             
+__________________________________________________________________________________________________
+block3a_activation (Activation) (None, 31, 31, 144)  0           block3a_bn[0][0]                 
+__________________________________________________________________________________________________
+block3a_se_squeeze (GlobalAvera (None, 144)          0           block3a_activation[0][0]         
+__________________________________________________________________________________________________
+block3a_se_reshape (Reshape)    (None, 1, 1, 144)    0           block3a_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block3a_se_reduce (Conv2D)      (None, 1, 1, 6)      870         block3a_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block3a_se_expand (Conv2D)      (None, 1, 1, 144)    1008        block3a_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block3a_se_excite (Multiply)    (None, 31, 31, 144)  0           block3a_activation[0][0]         
+                                                                 block3a_se_expand[0][0]          
+__________________________________________________________________________________________________
+block3a_project_conv (Conv2D)   (None, 31, 31, 40)   5760        block3a_se_excite[0][0]          
+__________________________________________________________________________________________________
+block3a_project_bn (BatchNormal (None, 31, 31, 40)   160         block3a_project_conv[0][0]       
+__________________________________________________________________________________________________
+block3b_expand_conv (Conv2D)    (None, 31, 31, 240)  9600        block3a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block3b_expand_bn (BatchNormali (None, 31, 31, 240)  960         block3b_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block3b_expand_activation (Acti (None, 31, 31, 240)  0           block3b_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block3b_dwconv (DepthwiseConv2D (None, 31, 31, 240)  6000        block3b_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block3b_bn (BatchNormalization) (None, 31, 31, 240)  960         block3b_dwconv[0][0]             
+__________________________________________________________________________________________________
+block3b_activation (Activation) (None, 31, 31, 240)  0           block3b_bn[0][0]                 
+__________________________________________________________________________________________________
+block3b_se_squeeze (GlobalAvera (None, 240)          0           block3b_activation[0][0]         
+__________________________________________________________________________________________________
+block3b_se_reshape (Reshape)    (None, 1, 1, 240)    0           block3b_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block3b_se_reduce (Conv2D)      (None, 1, 1, 10)     2410        block3b_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block3b_se_expand (Conv2D)      (None, 1, 1, 240)    2640        block3b_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block3b_se_excite (Multiply)    (None, 31, 31, 240)  0           block3b_activation[0][0]         
+                                                                 block3b_se_expand[0][0]          
+__________________________________________________________________________________________________
+block3b_project_conv (Conv2D)   (None, 31, 31, 40)   9600        block3b_se_excite[0][0]          
+__________________________________________________________________________________________________
+block3b_project_bn (BatchNormal (None, 31, 31, 40)   160         block3b_project_conv[0][0]       
+__________________________________________________________________________________________________
+block3b_drop (Dropout)          (None, 31, 31, 40)   0           block3b_project_bn[0][0]         
+__________________________________________________________________________________________________
+block3b_add (Add)               (None, 31, 31, 40)   0           block3b_drop[0][0]               
+                                                                 block3a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block4a_expand_conv (Conv2D)    (None, 31, 31, 240)  9600        block3b_add[0][0]                
+__________________________________________________________________________________________________
+block4a_expand_bn (BatchNormali (None, 31, 31, 240)  960         block4a_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block4a_expand_activation (Acti (None, 31, 31, 240)  0           block4a_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block4a_dwconv_pad (ZeroPadding (None, 33, 33, 240)  0           block4a_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block4a_dwconv (DepthwiseConv2D (None, 16, 16, 240)  2160        block4a_dwconv_pad[0][0]         
+__________________________________________________________________________________________________
+block4a_bn (BatchNormalization) (None, 16, 16, 240)  960         block4a_dwconv[0][0]             
+__________________________________________________________________________________________________
+block4a_activation (Activation) (None, 16, 16, 240)  0           block4a_bn[0][0]                 
+__________________________________________________________________________________________________
+block4a_se_squeeze (GlobalAvera (None, 240)          0           block4a_activation[0][0]         
+__________________________________________________________________________________________________
+block4a_se_reshape (Reshape)    (None, 1, 1, 240)    0           block4a_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block4a_se_reduce (Conv2D)      (None, 1, 1, 10)     2410        block4a_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block4a_se_expand (Conv2D)      (None, 1, 1, 240)    2640        block4a_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block4a_se_excite (Multiply)    (None, 16, 16, 240)  0           block4a_activation[0][0]         
+                                                                 block4a_se_expand[0][0]          
+__________________________________________________________________________________________________
+block4a_project_conv (Conv2D)   (None, 16, 16, 80)   19200       block4a_se_excite[0][0]          
+__________________________________________________________________________________________________
+block4a_project_bn (BatchNormal (None, 16, 16, 80)   320         block4a_project_conv[0][0]       
+__________________________________________________________________________________________________
+block4b_expand_conv (Conv2D)    (None, 16, 16, 480)  38400       block4a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block4b_expand_bn (BatchNormali (None, 16, 16, 480)  1920        block4b_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block4b_expand_activation (Acti (None, 16, 16, 480)  0           block4b_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block4b_dwconv (DepthwiseConv2D (None, 16, 16, 480)  4320        block4b_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block4b_bn (BatchNormalization) (None, 16, 16, 480)  1920        block4b_dwconv[0][0]             
+__________________________________________________________________________________________________
+block4b_activation (Activation) (None, 16, 16, 480)  0           block4b_bn[0][0]                 
+__________________________________________________________________________________________________
+block4b_se_squeeze (GlobalAvera (None, 480)          0           block4b_activation[0][0]         
+__________________________________________________________________________________________________
+block4b_se_reshape (Reshape)    (None, 1, 1, 480)    0           block4b_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block4b_se_reduce (Conv2D)      (None, 1, 1, 20)     9620        block4b_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block4b_se_expand (Conv2D)      (None, 1, 1, 480)    10080       block4b_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block4b_se_excite (Multiply)    (None, 16, 16, 480)  0           block4b_activation[0][0]         
+                                                                 block4b_se_expand[0][0]          
+__________________________________________________________________________________________________
+block4b_project_conv (Conv2D)   (None, 16, 16, 80)   38400       block4b_se_excite[0][0]          
+__________________________________________________________________________________________________
+block4b_project_bn (BatchNormal (None, 16, 16, 80)   320         block4b_project_conv[0][0]       
+__________________________________________________________________________________________________
+block4b_drop (Dropout)          (None, 16, 16, 80)   0           block4b_project_bn[0][0]         
+__________________________________________________________________________________________________
+block4b_add (Add)               (None, 16, 16, 80)   0           block4b_drop[0][0]               
+                                                                 block4a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block4c_expand_conv (Conv2D)    (None, 16, 16, 480)  38400       block4b_add[0][0]                
+__________________________________________________________________________________________________
+block4c_expand_bn (BatchNormali (None, 16, 16, 480)  1920        block4c_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block4c_expand_activation (Acti (None, 16, 16, 480)  0           block4c_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block4c_dwconv (DepthwiseConv2D (None, 16, 16, 480)  4320        block4c_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block4c_bn (BatchNormalization) (None, 16, 16, 480)  1920        block4c_dwconv[0][0]             
+__________________________________________________________________________________________________
+block4c_activation (Activation) (None, 16, 16, 480)  0           block4c_bn[0][0]                 
+__________________________________________________________________________________________________
+block4c_se_squeeze (GlobalAvera (None, 480)          0           block4c_activation[0][0]         
+__________________________________________________________________________________________________
+block4c_se_reshape (Reshape)    (None, 1, 1, 480)    0           block4c_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block4c_se_reduce (Conv2D)      (None, 1, 1, 20)     9620        block4c_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block4c_se_expand (Conv2D)      (None, 1, 1, 480)    10080       block4c_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block4c_se_excite (Multiply)    (None, 16, 16, 480)  0           block4c_activation[0][0]         
+                                                                 block4c_se_expand[0][0]          
+__________________________________________________________________________________________________
+block4c_project_conv (Conv2D)   (None, 16, 16, 80)   38400       block4c_se_excite[0][0]          
+__________________________________________________________________________________________________
+block4c_project_bn (BatchNormal (None, 16, 16, 80)   320         block4c_project_conv[0][0]       
+__________________________________________________________________________________________________
+block4c_drop (Dropout)          (None, 16, 16, 80)   0           block4c_project_bn[0][0]         
+__________________________________________________________________________________________________
+block4c_add (Add)               (None, 16, 16, 80)   0           block4c_drop[0][0]               
+                                                                 block4b_add[0][0]                
+__________________________________________________________________________________________________
+block5a_expand_conv (Conv2D)    (None, 16, 16, 480)  38400       block4c_add[0][0]                
+__________________________________________________________________________________________________
+block5a_expand_bn (BatchNormali (None, 16, 16, 480)  1920        block5a_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block5a_expand_activation (Acti (None, 16, 16, 480)  0           block5a_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block5a_dwconv (DepthwiseConv2D (None, 16, 16, 480)  12000       block5a_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block5a_bn (BatchNormalization) (None, 16, 16, 480)  1920        block5a_dwconv[0][0]             
+__________________________________________________________________________________________________
+block5a_activation (Activation) (None, 16, 16, 480)  0           block5a_bn[0][0]                 
+__________________________________________________________________________________________________
+block5a_se_squeeze (GlobalAvera (None, 480)          0           block5a_activation[0][0]         
+__________________________________________________________________________________________________
+block5a_se_reshape (Reshape)    (None, 1, 1, 480)    0           block5a_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block5a_se_reduce (Conv2D)      (None, 1, 1, 20)     9620        block5a_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block5a_se_expand (Conv2D)      (None, 1, 1, 480)    10080       block5a_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block5a_se_excite (Multiply)    (None, 16, 16, 480)  0           block5a_activation[0][0]         
+                                                                 block5a_se_expand[0][0]          
+__________________________________________________________________________________________________
+block5a_project_conv (Conv2D)   (None, 16, 16, 112)  53760       block5a_se_excite[0][0]          
+__________________________________________________________________________________________________
+block5a_project_bn (BatchNormal (None, 16, 16, 112)  448         block5a_project_conv[0][0]       
+__________________________________________________________________________________________________
+block5b_expand_conv (Conv2D)    (None, 16, 16, 672)  75264       block5a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block5b_expand_bn (BatchNormali (None, 16, 16, 672)  2688        block5b_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block5b_expand_activation (Acti (None, 16, 16, 672)  0           block5b_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block5b_dwconv (DepthwiseConv2D (None, 16, 16, 672)  16800       block5b_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block5b_bn (BatchNormalization) (None, 16, 16, 672)  2688        block5b_dwconv[0][0]             
+__________________________________________________________________________________________________
+block5b_activation (Activation) (None, 16, 16, 672)  0           block5b_bn[0][0]                 
+__________________________________________________________________________________________________
+block5b_se_squeeze (GlobalAvera (None, 672)          0           block5b_activation[0][0]         
+__________________________________________________________________________________________________
+block5b_se_reshape (Reshape)    (None, 1, 1, 672)    0           block5b_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block5b_se_reduce (Conv2D)      (None, 1, 1, 28)     18844       block5b_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block5b_se_expand (Conv2D)      (None, 1, 1, 672)    19488       block5b_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block5b_se_excite (Multiply)    (None, 16, 16, 672)  0           block5b_activation[0][0]         
+                                                                 block5b_se_expand[0][0]          
+__________________________________________________________________________________________________
+block5b_project_conv (Conv2D)   (None, 16, 16, 112)  75264       block5b_se_excite[0][0]          
+__________________________________________________________________________________________________
+block5b_project_bn (BatchNormal (None, 16, 16, 112)  448         block5b_project_conv[0][0]       
+__________________________________________________________________________________________________
+block5b_drop (Dropout)          (None, 16, 16, 112)  0           block5b_project_bn[0][0]         
+__________________________________________________________________________________________________
+block5b_add (Add)               (None, 16, 16, 112)  0           block5b_drop[0][0]               
+                                                                 block5a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block5c_expand_conv (Conv2D)    (None, 16, 16, 672)  75264       block5b_add[0][0]                
+__________________________________________________________________________________________________
+block5c_expand_bn (BatchNormali (None, 16, 16, 672)  2688        block5c_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block5c_expand_activation (Acti (None, 16, 16, 672)  0           block5c_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block5c_dwconv (DepthwiseConv2D (None, 16, 16, 672)  16800       block5c_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block5c_bn (BatchNormalization) (None, 16, 16, 672)  2688        block5c_dwconv[0][0]             
+__________________________________________________________________________________________________
+block5c_activation (Activation) (None, 16, 16, 672)  0           block5c_bn[0][0]                 
+__________________________________________________________________________________________________
+block5c_se_squeeze (GlobalAvera (None, 672)          0           block5c_activation[0][0]         
+__________________________________________________________________________________________________
+block5c_se_reshape (Reshape)    (None, 1, 1, 672)    0           block5c_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block5c_se_reduce (Conv2D)      (None, 1, 1, 28)     18844       block5c_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block5c_se_expand (Conv2D)      (None, 1, 1, 672)    19488       block5c_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block5c_se_excite (Multiply)    (None, 16, 16, 672)  0           block5c_activation[0][0]         
+                                                                 block5c_se_expand[0][0]          
+__________________________________________________________________________________________________
+block5c_project_conv (Conv2D)   (None, 16, 16, 112)  75264       block5c_se_excite[0][0]          
+__________________________________________________________________________________________________
+block5c_project_bn (BatchNormal (None, 16, 16, 112)  448         block5c_project_conv[0][0]       
+__________________________________________________________________________________________________
+block5c_drop (Dropout)          (None, 16, 16, 112)  0           block5c_project_bn[0][0]         
+__________________________________________________________________________________________________
+block5c_add (Add)               (None, 16, 16, 112)  0           block5c_drop[0][0]               
+                                                                 block5b_add[0][0]                
+__________________________________________________________________________________________________
+block6a_expand_conv (Conv2D)    (None, 16, 16, 672)  75264       block5c_add[0][0]                
+__________________________________________________________________________________________________
+block6a_expand_bn (BatchNormali (None, 16, 16, 672)  2688        block6a_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block6a_expand_activation (Acti (None, 16, 16, 672)  0           block6a_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block6a_dwconv_pad (ZeroPadding (None, 19, 19, 672)  0           block6a_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block6a_dwconv (DepthwiseConv2D (None, 8, 8, 672)    16800       block6a_dwconv_pad[0][0]         
+__________________________________________________________________________________________________
+block6a_bn (BatchNormalization) (None, 8, 8, 672)    2688        block6a_dwconv[0][0]             
+__________________________________________________________________________________________________
+block6a_activation (Activation) (None, 8, 8, 672)    0           block6a_bn[0][0]                 
+__________________________________________________________________________________________________
+block6a_se_squeeze (GlobalAvera (None, 672)          0           block6a_activation[0][0]         
+__________________________________________________________________________________________________
+block6a_se_reshape (Reshape)    (None, 1, 1, 672)    0           block6a_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block6a_se_reduce (Conv2D)      (None, 1, 1, 28)     18844       block6a_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block6a_se_expand (Conv2D)      (None, 1, 1, 672)    19488       block6a_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block6a_se_excite (Multiply)    (None, 8, 8, 672)    0           block6a_activation[0][0]         
+                                                                 block6a_se_expand[0][0]          
+__________________________________________________________________________________________________
+block6a_project_conv (Conv2D)   (None, 8, 8, 192)    129024      block6a_se_excite[0][0]          
+__________________________________________________________________________________________________
+block6a_project_bn (BatchNormal (None, 8, 8, 192)    768         block6a_project_conv[0][0]       
+__________________________________________________________________________________________________
+block6b_expand_conv (Conv2D)    (None, 8, 8, 1152)   221184      block6a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block6b_expand_bn (BatchNormali (None, 8, 8, 1152)   4608        block6b_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block6b_expand_activation (Acti (None, 8, 8, 1152)   0           block6b_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block6b_dwconv (DepthwiseConv2D (None, 8, 8, 1152)   28800       block6b_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block6b_bn (BatchNormalization) (None, 8, 8, 1152)   4608        block6b_dwconv[0][0]             
+__________________________________________________________________________________________________
+block6b_activation (Activation) (None, 8, 8, 1152)   0           block6b_bn[0][0]                 
+__________________________________________________________________________________________________
+block6b_se_squeeze (GlobalAvera (None, 1152)         0           block6b_activation[0][0]         
+__________________________________________________________________________________________________
+block6b_se_reshape (Reshape)    (None, 1, 1, 1152)   0           block6b_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block6b_se_reduce (Conv2D)      (None, 1, 1, 48)     55344       block6b_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block6b_se_expand (Conv2D)      (None, 1, 1, 1152)   56448       block6b_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block6b_se_excite (Multiply)    (None, 8, 8, 1152)   0           block6b_activation[0][0]         
+                                                                 block6b_se_expand[0][0]          
+__________________________________________________________________________________________________
+block6b_project_conv (Conv2D)   (None, 8, 8, 192)    221184      block6b_se_excite[0][0]          
+__________________________________________________________________________________________________
+block6b_project_bn (BatchNormal (None, 8, 8, 192)    768         block6b_project_conv[0][0]       
+__________________________________________________________________________________________________
+block6b_drop (Dropout)          (None, 8, 8, 192)    0           block6b_project_bn[0][0]         
+__________________________________________________________________________________________________
+block6b_add (Add)               (None, 8, 8, 192)    0           block6b_drop[0][0]               
+                                                                 block6a_project_bn[0][0]         
+__________________________________________________________________________________________________
+block6c_expand_conv (Conv2D)    (None, 8, 8, 1152)   221184      block6b_add[0][0]                
+__________________________________________________________________________________________________
+block6c_expand_bn (BatchNormali (None, 8, 8, 1152)   4608        block6c_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block6c_expand_activation (Acti (None, 8, 8, 1152)   0           block6c_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block6c_dwconv (DepthwiseConv2D (None, 8, 8, 1152)   28800       block6c_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block6c_bn (BatchNormalization) (None, 8, 8, 1152)   4608        block6c_dwconv[0][0]             
+__________________________________________________________________________________________________
+block6c_activation (Activation) (None, 8, 8, 1152)   0           block6c_bn[0][0]                 
+__________________________________________________________________________________________________
+block6c_se_squeeze (GlobalAvera (None, 1152)         0           block6c_activation[0][0]         
+__________________________________________________________________________________________________
+block6c_se_reshape (Reshape)    (None, 1, 1, 1152)   0           block6c_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block6c_se_reduce (Conv2D)      (None, 1, 1, 48)     55344       block6c_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block6c_se_expand (Conv2D)      (None, 1, 1, 1152)   56448       block6c_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block6c_se_excite (Multiply)    (None, 8, 8, 1152)   0           block6c_activation[0][0]         
+                                                                 block6c_se_expand[0][0]          
+__________________________________________________________________________________________________
+block6c_project_conv (Conv2D)   (None, 8, 8, 192)    221184      block6c_se_excite[0][0]          
+__________________________________________________________________________________________________
+block6c_project_bn (BatchNormal (None, 8, 8, 192)    768         block6c_project_conv[0][0]       
+__________________________________________________________________________________________________
+block6c_drop (Dropout)          (None, 8, 8, 192)    0           block6c_project_bn[0][0]         
+__________________________________________________________________________________________________
+block6c_add (Add)               (None, 8, 8, 192)    0           block6c_drop[0][0]               
+                                                                 block6b_add[0][0]                
+__________________________________________________________________________________________________
+block6d_expand_conv (Conv2D)    (None, 8, 8, 1152)   221184      block6c_add[0][0]                
+__________________________________________________________________________________________________
+block6d_expand_bn (BatchNormali (None, 8, 8, 1152)   4608        block6d_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block6d_expand_activation (Acti (None, 8, 8, 1152)   0           block6d_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block6d_dwconv (DepthwiseConv2D (None, 8, 8, 1152)   28800       block6d_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block6d_bn (BatchNormalization) (None, 8, 8, 1152)   4608        block6d_dwconv[0][0]             
+__________________________________________________________________________________________________
+block6d_activation (Activation) (None, 8, 8, 1152)   0           block6d_bn[0][0]                 
+__________________________________________________________________________________________________
+block6d_se_squeeze (GlobalAvera (None, 1152)         0           block6d_activation[0][0]         
+__________________________________________________________________________________________________
+block6d_se_reshape (Reshape)    (None, 1, 1, 1152)   0           block6d_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block6d_se_reduce (Conv2D)      (None, 1, 1, 48)     55344       block6d_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block6d_se_expand (Conv2D)      (None, 1, 1, 1152)   56448       block6d_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block6d_se_excite (Multiply)    (None, 8, 8, 1152)   0           block6d_activation[0][0]         
+                                                                 block6d_se_expand[0][0]          
+__________________________________________________________________________________________________
+block6d_project_conv (Conv2D)   (None, 8, 8, 192)    221184      block6d_se_excite[0][0]          
+__________________________________________________________________________________________________
+block6d_project_bn (BatchNormal (None, 8, 8, 192)    768         block6d_project_conv[0][0]       
+__________________________________________________________________________________________________
+block6d_drop (Dropout)          (None, 8, 8, 192)    0           block6d_project_bn[0][0]         
+__________________________________________________________________________________________________
+block6d_add (Add)               (None, 8, 8, 192)    0           block6d_drop[0][0]               
+                                                                 block6c_add[0][0]                
+__________________________________________________________________________________________________
+block7a_expand_conv (Conv2D)    (None, 8, 8, 1152)   221184      block6d_add[0][0]                
+__________________________________________________________________________________________________
+block7a_expand_bn (BatchNormali (None, 8, 8, 1152)   4608        block7a_expand_conv[0][0]        
+__________________________________________________________________________________________________
+block7a_expand_activation (Acti (None, 8, 8, 1152)   0           block7a_expand_bn[0][0]          
+__________________________________________________________________________________________________
+block7a_dwconv (DepthwiseConv2D (None, 8, 8, 1152)   10368       block7a_expand_activation[0][0]  
+__________________________________________________________________________________________________
+block7a_bn (BatchNormalization) (None, 8, 8, 1152)   4608        block7a_dwconv[0][0]             
+__________________________________________________________________________________________________
+block7a_activation (Activation) (None, 8, 8, 1152)   0           block7a_bn[0][0]                 
+__________________________________________________________________________________________________
+block7a_se_squeeze (GlobalAvera (None, 1152)         0           block7a_activation[0][0]         
+__________________________________________________________________________________________________
+block7a_se_reshape (Reshape)    (None, 1, 1, 1152)   0           block7a_se_squeeze[0][0]         
+__________________________________________________________________________________________________
+block7a_se_reduce (Conv2D)      (None, 1, 1, 48)     55344       block7a_se_reshape[0][0]         
+__________________________________________________________________________________________________
+block7a_se_expand (Conv2D)      (None, 1, 1, 1152)   56448       block7a_se_reduce[0][0]          
+__________________________________________________________________________________________________
+block7a_se_excite (Multiply)    (None, 8, 8, 1152)   0           block7a_activation[0][0]         
+                                                                 block7a_se_expand[0][0]          
+__________________________________________________________________________________________________
+block7a_project_conv (Conv2D)   (None, 8, 8, 320)    368640      block7a_se_excite[0][0]          
+__________________________________________________________________________________________________
+block7a_project_bn (BatchNormal (None, 8, 8, 320)    1280        block7a_project_conv[0][0]       
+__________________________________________________________________________________________________
+top_conv (Conv2D)               (None, 8, 8, 1280)   409600      block7a_project_bn[0][0]         
+__________________________________________________________________________________________________
+conv2d (Conv2D)                 (None, 8, 8, 1280)   574720      block5c_add[0][0]                
+__________________________________________________________________________________________________
+conv2d_1 (Conv2D)               (None, 8, 8, 1280)   247040      block6d_add[0][0]                
+__________________________________________________________________________________________________
+top_bn (BatchNormalization)     (None, 8, 8, 1280)   5120        top_conv[0][0]                   
+__________________________________________________________________________________________________
+tf.math.reduce_mean (TFOpLambda (None, 8, 8)         0           conv2d[0][0]                     
+__________________________________________________________________________________________________
+tf.math.reduce_max (TFOpLambda) (None, 8, 8)         0           conv2d[0][0]                     
+__________________________________________________________________________________________________
+tf.math.reduce_mean_1 (TFOpLamb (None, 8, 1280)      0           conv2d[0][0]                     
+__________________________________________________________________________________________________
+tf.math.reduce_max_1 (TFOpLambd (None, 8, 1280)      0           conv2d[0][0]                     
+__________________________________________________________________________________________________
+tf.math.reduce_mean_2 (TFOpLamb (None, 8, 1280)      0           conv2d[0][0]                     
+__________________________________________________________________________________________________
+tf.math.reduce_max_2 (TFOpLambd (None, 8, 1280)      0           conv2d[0][0]                     
+__________________________________________________________________________________________________
+tf.math.reduce_mean_3 (TFOpLamb (None, 8, 8)         0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+tf.math.reduce_max_3 (TFOpLambd (None, 8, 8)         0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+tf.math.reduce_mean_4 (TFOpLamb (None, 8, 1280)      0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+tf.math.reduce_max_4 (TFOpLambd (None, 8, 1280)      0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+tf.math.reduce_mean_5 (TFOpLamb (None, 8, 1280)      0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+tf.math.reduce_max_5 (TFOpLambd (None, 8, 1280)      0           conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+top_activation (Activation)     (None, 8, 8, 1280)   0           top_bn[0][0]                     
+__________________________________________________________________________________________________
+tf.__operators__.add (TFOpLambd (None, 8, 8)         0           tf.math.reduce_mean[0][0]        
+                                                                 tf.math.reduce_max[0][0]         
+__________________________________________________________________________________________________
+tf.__operators__.add_1 (TFOpLam (None, 8, 1280)      0           tf.math.reduce_mean_1[0][0]      
+                                                                 tf.math.reduce_max_1[0][0]       
+__________________________________________________________________________________________________
+tf.__operators__.add_2 (TFOpLam (None, 8, 1280)      0           tf.math.reduce_mean_2[0][0]      
+                                                                 tf.math.reduce_max_2[0][0]       
+__________________________________________________________________________________________________
+tf.__operators__.add_3 (TFOpLam (None, 8, 8)         0           tf.math.reduce_mean_3[0][0]      
+                                                                 tf.math.reduce_max_3[0][0]       
+__________________________________________________________________________________________________
+tf.__operators__.add_4 (TFOpLam (None, 8, 1280)      0           tf.math.reduce_mean_4[0][0]      
+                                                                 tf.math.reduce_max_4[0][0]       
+__________________________________________________________________________________________________
+tf.__operators__.add_5 (TFOpLam (None, 8, 1280)      0           tf.math.reduce_mean_5[0][0]      
+                                                                 tf.math.reduce_max_5[0][0]       
+__________________________________________________________________________________________________
+tf.math.reduce_mean_6 (TFOpLamb (None, 8, 8)         0           top_activation[0][0]             
+__________________________________________________________________________________________________
+tf.math.reduce_max_6 (TFOpLambd (None, 8, 8)         0           top_activation[0][0]             
+__________________________________________________________________________________________________
+tf.math.reduce_mean_7 (TFOpLamb (None, 8, 1280)      0           top_activation[0][0]             
+__________________________________________________________________________________________________
+tf.math.reduce_max_7 (TFOpLambd (None, 8, 1280)      0           top_activation[0][0]             
+__________________________________________________________________________________________________
+tf.math.reduce_mean_8 (TFOpLamb (None, 8, 1280)      0           top_activation[0][0]             
+__________________________________________________________________________________________________
+tf.math.reduce_max_8 (TFOpLambd (None, 8, 1280)      0           top_activation[0][0]             
+__________________________________________________________________________________________________
+multi_head_attention (MultiHead (None, 8, 8)         4488        tf.__operators__.add[0][0]       
+                                                                 tf.__operators__.add[0][0]       
+__________________________________________________________________________________________________
+multi_head_attention_1 (MultiHe (None, 8, 1280)      657024      tf.__operators__.add_1[0][0]     
+                                                                 tf.__operators__.add_1[0][0]     
+__________________________________________________________________________________________________
+multi_head_attention_2 (MultiHe (None, 8, 1280)      657024      tf.__operators__.add_2[0][0]     
+                                                                 tf.__operators__.add_2[0][0]     
+__________________________________________________________________________________________________
+multi_head_attention_3 (MultiHe (None, 8, 8)         4488        tf.__operators__.add_3[0][0]     
+                                                                 tf.__operators__.add_3[0][0]     
+__________________________________________________________________________________________________
+multi_head_attention_4 (MultiHe (None, 8, 1280)      657024      tf.__operators__.add_4[0][0]     
+                                                                 tf.__operators__.add_4[0][0]     
+__________________________________________________________________________________________________
+multi_head_attention_5 (MultiHe (None, 8, 1280)      657024      tf.__operators__.add_5[0][0]     
+                                                                 tf.__operators__.add_5[0][0]     
+__________________________________________________________________________________________________
+tf.__operators__.add_6 (TFOpLam (None, 8, 8)         0           tf.math.reduce_mean_6[0][0]      
+                                                                 tf.math.reduce_max_6[0][0]       
+__________________________________________________________________________________________________
+tf.__operators__.add_7 (TFOpLam (None, 8, 1280)      0           tf.math.reduce_mean_7[0][0]      
+                                                                 tf.math.reduce_max_7[0][0]       
+__________________________________________________________________________________________________
+tf.__operators__.add_8 (TFOpLam (None, 8, 1280)      0           tf.math.reduce_mean_8[0][0]      
+                                                                 tf.math.reduce_max_8[0][0]       
+__________________________________________________________________________________________________
+tf.math.sigmoid (TFOpLambda)    (None, 8, 8)         0           multi_head_attention[0][0]       
+__________________________________________________________________________________________________
+tf.math.sigmoid_1 (TFOpLambda)  (None, 8, 1280)      0           multi_head_attention_1[0][0]     
+__________________________________________________________________________________________________
+tf.math.sigmoid_2 (TFOpLambda)  (None, 8, 1280)      0           multi_head_attention_2[0][0]     
+__________________________________________________________________________________________________
+tf.math.sigmoid_3 (TFOpLambda)  (None, 8, 8)         0           multi_head_attention_3[0][0]     
+__________________________________________________________________________________________________
+tf.math.sigmoid_4 (TFOpLambda)  (None, 8, 1280)      0           multi_head_attention_4[0][0]     
+__________________________________________________________________________________________________
+tf.math.sigmoid_5 (TFOpLambda)  (None, 8, 1280)      0           multi_head_attention_5[0][0]     
+__________________________________________________________________________________________________
+multi_head_attention_6 (MultiHe (None, 8, 8)         4488        tf.__operators__.add_6[0][0]     
+                                                                 tf.__operators__.add_6[0][0]     
+__________________________________________________________________________________________________
+multi_head_attention_7 (MultiHe (None, 8, 1280)      657024      tf.__operators__.add_7[0][0]     
+                                                                 tf.__operators__.add_7[0][0]     
+__________________________________________________________________________________________________
+multi_head_attention_8 (MultiHe (None, 8, 1280)      657024      tf.__operators__.add_8[0][0]     
+                                                                 tf.__operators__.add_8[0][0]     
+__________________________________________________________________________________________________
+reshape (Reshape)               (None, 8, 8, 1)      0           tf.math.sigmoid[0][0]            
+__________________________________________________________________________________________________
+reshape_1 (Reshape)             (None, 8, 1, 1280)   0           tf.math.sigmoid_1[0][0]          
+__________________________________________________________________________________________________
+reshape_2 (Reshape)             (None, 1, 8, 1280)   0           tf.math.sigmoid_2[0][0]          
+__________________________________________________________________________________________________
+reshape_3 (Reshape)             (None, 8, 8, 1)      0           tf.math.sigmoid_3[0][0]          
+__________________________________________________________________________________________________
+reshape_4 (Reshape)             (None, 8, 1, 1280)   0           tf.math.sigmoid_4[0][0]          
+__________________________________________________________________________________________________
+reshape_5 (Reshape)             (None, 1, 8, 1280)   0           tf.math.sigmoid_5[0][0]          
+__________________________________________________________________________________________________
+tf.math.sigmoid_6 (TFOpLambda)  (None, 8, 8)         0           multi_head_attention_6[0][0]     
+__________________________________________________________________________________________________
+tf.math.sigmoid_7 (TFOpLambda)  (None, 8, 1280)      0           multi_head_attention_7[0][0]     
+__________________________________________________________________________________________________
+tf.math.sigmoid_8 (TFOpLambda)  (None, 8, 1280)      0           multi_head_attention_8[0][0]     
+__________________________________________________________________________________________________
+tf.math.multiply (TFOpLambda)   (None, 8, 8, 1280)   0           conv2d[0][0]                     
+                                                                 reshape[0][0]                    
+__________________________________________________________________________________________________
+tf.math.multiply_1 (TFOpLambda) (None, 8, 8, 1280)   0           conv2d[0][0]                     
+                                                                 reshape_1[0][0]                  
+__________________________________________________________________________________________________
+tf.math.multiply_2 (TFOpLambda) (None, 8, 8, 1280)   0           conv2d[0][0]                     
+                                                                 reshape_2[0][0]                  
+__________________________________________________________________________________________________
+tf.math.multiply_3 (TFOpLambda) (None, 8, 8, 1280)   0           conv2d_1[0][0]                   
+                                                                 reshape_3[0][0]                  
+__________________________________________________________________________________________________
+tf.math.multiply_4 (TFOpLambda) (None, 8, 8, 1280)   0           conv2d_1[0][0]                   
+                                                                 reshape_4[0][0]                  
+__________________________________________________________________________________________________
+tf.math.multiply_5 (TFOpLambda) (None, 8, 8, 1280)   0           conv2d_1[0][0]                   
+                                                                 reshape_5[0][0]                  
+__________________________________________________________________________________________________
+reshape_6 (Reshape)             (None, 8, 8, 1)      0           tf.math.sigmoid_6[0][0]          
+__________________________________________________________________________________________________
+reshape_7 (Reshape)             (None, 8, 1, 1280)   0           tf.math.sigmoid_7[0][0]          
+__________________________________________________________________________________________________
+reshape_8 (Reshape)             (None, 1, 8, 1280)   0           tf.math.sigmoid_8[0][0]          
+__________________________________________________________________________________________________
+average (Average)               (None, 8, 8, 1280)   0           tf.math.multiply[0][0]           
+                                                                 tf.math.multiply_1[0][0]         
+                                                                 tf.math.multiply_2[0][0]         
+__________________________________________________________________________________________________
+average_1 (Average)             (None, 8, 8, 1280)   0           tf.math.multiply_3[0][0]         
+                                                                 tf.math.multiply_4[0][0]         
+                                                                 tf.math.multiply_5[0][0]         
+__________________________________________________________________________________________________
+tf.math.multiply_6 (TFOpLambda) (None, 8, 8, 1280)   0           top_activation[0][0]             
+                                                                 reshape_6[0][0]                  
+__________________________________________________________________________________________________
+tf.math.multiply_7 (TFOpLambda) (None, 8, 8, 1280)   0           top_activation[0][0]             
+                                                                 reshape_7[0][0]                  
+__________________________________________________________________________________________________
+tf.math.multiply_8 (TFOpLambda) (None, 8, 8, 1280)   0           top_activation[0][0]             
+                                                                 reshape_8[0][0]                  
+__________________________________________________________________________________________________
+global_average_pooling2d (Globa (None, 1280)         0           average[0][0]                    
+__________________________________________________________________________________________________
+global_average_pooling2d_1 (Glo (None, 1280)         0           average_1[0][0]                  
+__________________________________________________________________________________________________
+average_2 (Average)             (None, 8, 8, 1280)   0           tf.math.multiply_6[0][0]         
+                                                                 tf.math.multiply_7[0][0]         
+                                                                 tf.math.multiply_8[0][0]         
+__________________________________________________________________________________________________
+tf.__operators__.add_9 (TFOpLam (None, 1280)         0           global_average_pooling2d[0][0]   
+                                                                 global_average_pooling2d_1[0][0] 
+__________________________________________________________________________________________________
+global_average_pooling2d_2 (Glo (None, 1280)         0           average_2[0][0]                  
+__________________________________________________________________________________________________
+tf.__operators__.add_10 (TFOpLa (None, 1280)         0           tf.__operators__.add_9[0][0]     
+                                                                 global_average_pooling2d_2[0][0] 
+__________________________________________________________________________________________________
+dropout (Dropout)               (None, 1280)         0           tf.__operators__.add_10[0][0]    
+__________________________________________________________________________________________________
+dense (Dense)                   (None, 512)          655872      dropout[0][0]                    
+__________________________________________________________________________________________________
+dropout_1 (Dropout)             (None, 512)          0           dense[0][0]                      
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 45)           23085       dropout_1[0][0]                  
+==================================================================================================
+Total params: 9,505,896
+Trainable params: 9,463,873
+Non-trainable params: 42,023
+__________________________________________________________________________________________________
